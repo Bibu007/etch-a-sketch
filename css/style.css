@@ -1,0 +1,62 @@
+.header{
+    font-size: x-large;
+    font-weight: 900;
+    font-family: 'Chalkduster', 'Marker Felt', 'Comic Sans MS', cursive;
+    text-align: center;
+    padding: 30px;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#grid{
+    height:500px;
+    width:500px;
+    border: 2px solid black;
+    
+}
+
+.cpanel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    gap: 10px;
+    padding-left: 35px;
+}
+
+.btn{
+    border-radius: 5px;
+    font-size: x-large;
+    font-family: "Chalkboard", "Chalkboard SE", "Comic Sans MS", cursive;
+}
+
+
+.resize{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+}
+
+.box{
+    border-radius: 5px;
+    border: 2px solid black;
+    height: 30px;
+    width: 90px;
+    text-align: center;
+    padding-top: 2px;
+    font-size: x-large;
+    font-family: "Chalkboard", "Chalkboard SE", "Comic Sans MS", cursive;
+}
+
+
+.reset{
+    width: auto;
+    text-align: center;
+    padding: 5px;
+    
+}
