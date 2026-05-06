@@ -2,10 +2,12 @@ let size = 16;
 const box = document.querySelector(".box");
 const up = document.querySelector("#up");
 const down = document.querySelector("#down");
+const reset = document.querySelector("#reset");
 const grid = document.querySelector("#grid");
 
 up.addEventListener("mousedown", increaseGridSize);
 down.addEventListener("click", decreaseGridSize);
+reset.addEventListener("click", function(){gridGenerator(size)});
 
 gridGenerator(16);
 
